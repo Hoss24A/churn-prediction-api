@@ -15,7 +15,7 @@ served via a FastAPI REST API and deployed on Render.
 [Data] → [Preprocessing] → [SMOTE] → [XGBoost] → [SHAP] → [FastAPI] → [Streamlit]
 
 ## Live Demo
-API Docs: https://churn-api-xxxx.onrender.com/docs
+API Docs: https://churn-prediction-api-8lgw.onrender.com/docs
 
 ## Local Setup
 \`\`\`bash
