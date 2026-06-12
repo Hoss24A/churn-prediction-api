@@ -52,8 +52,10 @@ if submitted:
         "TotalCharges": total
     }
 
+    API_URL = "https://churn-prediction-api-8lgw.onrender.com"
+
     with st.spinner("Predicting..."):
-        res = requests.post("http://localhost:8000/predict", json=payload)
+        res = requests.post(f"{API_URL}/predict", json=payload)
 
     if res.status_code == 200:
         result = res.json()
